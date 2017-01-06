@@ -35,4 +35,7 @@ Lastly in order to run the queries, squeal.py was created so that it:
 1. Reads the database in the current directory.
 2. Reads SQuEaL queries from the keyboard until a blank line is entered.
 
-Websites like Amazon use databases to store vast amounts of data. They then make queries on that data in order to retrieve data for a variety of purposes, and so, using csv files to read data, this python program accepts SQuEaL queries from the keyboard, runs them on a database, and outputs the results.
+## How this program is useful
+The quantity and variety of data generated today requires that we have ways to organize that data and extract pieces of data that are currently of interest. For example, when searching for a certain product to buy online, there might be thousands of similar products however, you have ways of searching, sorting, and filtering that data to find the specific product you were looking for.
+
+Websites like Amazon use databases to store vast amounts of data. They then make queries on that data in order to retrieve data for a variety of purposes. This project is just another example of how databases work in the real world. This python program understands and accepts a SQL-like language, or more specifically, SQuEaL queries from the keyboard, runs them on a database, and outputs the results.
